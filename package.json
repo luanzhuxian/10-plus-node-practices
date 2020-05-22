@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bin/lts",
+    "start": "node",
     "ltsn": "node bin/ltsn",
+    "race": "node lib/race/index-2",
+    "video": "node lib/video-duration",
     "souge": "node bin/souge"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanzhuxian/10-plus-node-practices.git"
+  },
   "keywords": [
-    "Node",
-    "LTS"
+    "Node"
   ],
   "author": "lzx",
   "license": "ISC",
@@ -20,15 +25,14 @@
     "souge": "./bin/souge"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.2",
     "chalk-animation": "^1.6.0",
-    "cli-color": "^1.4.0",
+    "cli-color": "^2.0.0",
     "cli-table": "^0.3.1",
-    "compare-versions": "^3.4.0",
-    "inquirer": "^6.2.2",
+    "compare-versions": "^3.6.0",
+    "inquirer": "^7.1.0",
     "moment": "^2.26.0",
-    "player": "^0.6.1",
-    "terminal-link": "^1.2.0"
+    "terminal-link": "^2.1.1"
   },
   "devDependencies": {
     "cowsay": "^1.4.0"
