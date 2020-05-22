@@ -20,7 +20,7 @@
     "souge": "./bin/souge"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "chalk-animation": "^1.6.0",
     "cli-color": "^1.4.0",
     "cli-table": "^0.3.1",
